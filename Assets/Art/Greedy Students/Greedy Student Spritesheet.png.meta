@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d7d799f25b50db4fa44730ebff2a270
-      internalID: -2062123002
+      spriteID: e7c9f76abb552a248b0b499db4ea9668
+      internalID: 1151924166
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53fe44c4eb0ae0a43919e069d6965b0e
-      internalID: 805914237
+      spriteID: 852027dc6d8a54a489f433c0fbbcae44
+      internalID: -1206652087
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68cd600868c69b4418218ca2dd9cb891
-      internalID: 901574216
+      spriteID: 9169a78aeb601e949a5cfddcfcea3745
+      internalID: 508884433
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2a81cb7fe122764085e384ecfe053b1
-      internalID: 2076328489
+      spriteID: dadc83e27446224469e6e31690687d0c
+      internalID: -1951163479
       vertices: []
       indices: 
       edges: []
@@ -197,8 +197,8 @@ TextureImporter:
       name: Greedy Student Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
+        x: 16
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f616822e0bcd1c45b2fb2b294c30011
-      internalID: 1784312391
+      spriteID: 1eab515a163ab6f47b8c3b6f148eb21a
+      internalID: 1854980974
       vertices: []
       indices: 
       edges: []
@@ -218,7 +218,7 @@ TextureImporter:
       name: Greedy Student Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 48
         width: 16
         height: 16
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c92031c8217b0104f9749f636f1f742e
-      internalID: 1078924371
+      spriteID: dbc74c0caaef5d74e90374f2511588fb
+      internalID: -1190886176
       vertices: []
       indices: 
       edges: []
@@ -239,7 +239,7 @@ TextureImporter:
       name: Greedy Student Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 32
+        x: 48
         y: 48
         width: 16
         height: 16
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b901bba8ffbcc74caa48a05f01947e9
-      internalID: 1612792117
+      spriteID: 4f2a787a4da6f17489202607e829f660
+      internalID: 1197897670
       vertices: []
       indices: 
       edges: []
@@ -260,7 +260,7 @@ TextureImporter:
       name: Greedy Student Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 48
         width: 16
         height: 16
@@ -271,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cd2781f29e0f0d44a7e0e37bad17b83
-      internalID: -543980131
+      spriteID: 20ef687554589f045a69dc827a01eba3
+      internalID: 1513870041
       vertices: []
       indices: 
       edges: []
@@ -281,8 +281,8 @@ TextureImporter:
       name: Greedy Student Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 48
+        x: 16
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -292,8 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ff617da7307b494aab584a874e0cc8c
-      internalID: -1287478487
+      spriteID: 2390ce3085e9c1e458da6fdda3ac3ae7
+      internalID: 592232153
       vertices: []
       indices: 
       edges: []
@@ -302,8 +302,8 @@ TextureImporter:
       name: Greedy Student Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 96
-        y: 48
+        x: 32
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -313,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1268921a33643034fa6f852b95c48e3b
-      internalID: -1930150196
+      spriteID: 634fff6957f06e6438ed338ffd2711fe
+      internalID: -1007869181
       vertices: []
       indices: 
       edges: []
@@ -323,7 +323,7 @@ TextureImporter:
       name: Greedy Student Spritesheet_10
       rect:
         serializedVersion: 2
-        x: 16
+        x: 48
         y: 32
         width: 16
         height: 16
@@ -334,8 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddeb116d77cf0bb4e9a377429c761e1c
-      internalID: 1783779073
+      spriteID: 3aa0cddf7c53fc5499e85f329798397b
+      internalID: 1094824764
       vertices: []
       indices: 
       edges: []
@@ -344,48 +344,6 @@ TextureImporter:
       name: Greedy Student Spritesheet_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74901ebdde2d989469695ee8f79378fb
-      internalID: 923261623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Greedy Student Spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08652b9d708dc504ebf8bb56c7a74317
-      internalID: -224315555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Greedy Student Spritesheet_13
-      rect:
-        serializedVersion: 2
         x: 64
         y: 32
         width: 16
@@ -397,35 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcbaaff5683b5bb48b1a5d56e364ffbe
-      internalID: 56677015
+      spriteID: 04d1e9239836c71428b98a33878e6473
+      internalID: 1482586675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Greedy Student Spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9a7ea103f089934996b6a54726760ff
-      internalID: 2143229807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Greedy Student Spritesheet_15
+      name: Greedy Student Spritesheet_12
       rect:
         serializedVersion: 2
         x: 16
@@ -439,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9847e97baabe39546af3ed3170f38f38
-      internalID: 570861430
+      spriteID: eb7779478e889ff4c9a3db8daf6cd525
+      internalID: -1153492584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Greedy Student Spritesheet_16
+      name: Greedy Student Spritesheet_13
       rect:
         serializedVersion: 2
         x: 32
@@ -460,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 626eddbc1202b9f4e9c62ed4a409bad3
-      internalID: -1746394061
+      spriteID: 0e2b2f18cfead9b4cabbc72155e06bf0
+      internalID: -299750379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Greedy Student Spritesheet_17
+      name: Greedy Student Spritesheet_14
       rect:
         serializedVersion: 2
         x: 48
@@ -481,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37e2f5ae7320fc9409692574c64b53eb
-      internalID: 18913756
+      spriteID: c1290df390c328a4a9596226c379bd4f
+      internalID: 1423161411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Greedy Student Spritesheet_18
+      name: Greedy Student Spritesheet_15
       rect:
         serializedVersion: 2
         x: 64
@@ -502,29 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b49bf711c0ef1641a928a6cf517a9bc
-      internalID: -2118329194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Greedy Student Spritesheet_19
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0aea7faace865d43a27a05ac4411c25
-      internalID: 348455058
+      spriteID: 506d8fdfc3675544fb54f7d8fe3a96a8
+      internalID: -1049692863
       vertices: []
       indices: 
       edges: []
@@ -540,26 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Greedy Student Spritesheet_0: -2062123002
-      Greedy Student Spritesheet_1: 805914237
-      Greedy Student Spritesheet_10: 1783779073
-      Greedy Student Spritesheet_11: 923261623
-      Greedy Student Spritesheet_12: -224315555
-      Greedy Student Spritesheet_13: 56677015
-      Greedy Student Spritesheet_14: 2143229807
-      Greedy Student Spritesheet_15: 570861430
-      Greedy Student Spritesheet_16: -1746394061
-      Greedy Student Spritesheet_17: 18913756
-      Greedy Student Spritesheet_18: -2118329194
-      Greedy Student Spritesheet_19: 348455058
-      Greedy Student Spritesheet_2: 901574216
-      Greedy Student Spritesheet_3: 2076328489
-      Greedy Student Spritesheet_4: 1784312391
-      Greedy Student Spritesheet_5: 1078924371
-      Greedy Student Spritesheet_6: 1612792117
-      Greedy Student Spritesheet_7: -543980131
-      Greedy Student Spritesheet_8: -1287478487
-      Greedy Student Spritesheet_9: -1930150196
+      Greedy Student Spritesheet_0: 1151924166
+      Greedy Student Spritesheet_1: -1206652087
+      Greedy Student Spritesheet_10: 1094824764
+      Greedy Student Spritesheet_11: 1482586675
+      Greedy Student Spritesheet_12: -1153492584
+      Greedy Student Spritesheet_13: -299750379
+      Greedy Student Spritesheet_14: 1423161411
+      Greedy Student Spritesheet_15: -1049692863
+      Greedy Student Spritesheet_2: 508884433
+      Greedy Student Spritesheet_3: -1951163479
+      Greedy Student Spritesheet_4: 1854980974
+      Greedy Student Spritesheet_5: -1190886176
+      Greedy Student Spritesheet_6: 1197897670
+      Greedy Student Spritesheet_7: 1513870041
+      Greedy Student Spritesheet_8: 592232153
+      Greedy Student Spritesheet_9: -1007869181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

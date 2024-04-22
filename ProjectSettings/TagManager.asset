@@ -47,6 +47,9 @@ TagManager:
   - name: CollidableObj
     uniqueID: 424126273
     locked: 0
+  - name: PlayerHUD
+    uniqueID: 2855112351
+    locked: 0
   - name: ' Player/Enemy'
     uniqueID: 438919159
     locked: 0

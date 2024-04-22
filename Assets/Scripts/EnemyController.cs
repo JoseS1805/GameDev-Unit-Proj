@@ -8,6 +8,9 @@ public class EnemyController : MonoBehaviour
     public float movementSpeed = 3f; // Speed at which the enemy moves
     public Transform player; // Reference to the player's transform
     public Animator animator; // Reference to the Animator component
+    public string biteAnimationTrigger = "Bite"; // Animation trigger name for the bite animation
+    public string playerTag = "Player"; // Tag of the player GameObject
+    public PlayerDishController playerDish; // Reference to the player's dish GameObject
 
     private bool playerInRange = false;
 
@@ -39,6 +42,19 @@ public class EnemyController : MonoBehaviour
         {
             // If the player is not in range, stop the movement animation
             animator.SetFloat("Speed", 0f);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Check if the enemy collides with the player
+        if (other.CompareTag(playerTag))
+        {
+            // Trigger the bite animation
+            animator.SetTrigger(biteAnimationTrigger);
+
+            // Take a bite from the player's dish
+            playerDish.TakeBite();
         }
     }
 }

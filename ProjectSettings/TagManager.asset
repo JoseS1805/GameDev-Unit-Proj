@@ -3,19 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
+  - PlayerHUD
+  - Player/Enemy
+  - Interactables
   - 
-  - Background
-  - CollidableObj
-  - Player
-  - Enemies
+  - 
   - 
   - 
   - 
@@ -44,12 +45,15 @@ TagManager:
   - name: Background
     uniqueID: 3406694117
     locked: 0
-  - name: CollidableObj
-    uniqueID: 424126273
+  - name: LVLDecorations
+    uniqueID: 2700924853
     locked: 0
   - name: PlayerHUD
+    uniqueID: 424126273
+    locked: 0
+  - name: Player/Enemy
     uniqueID: 2855112351
     locked: 0
-  - name: ' Player/Enemy'
-    uniqueID: 438919159
+  - name: Interactables
+    uniqueID: 1490567915
     locked: 0

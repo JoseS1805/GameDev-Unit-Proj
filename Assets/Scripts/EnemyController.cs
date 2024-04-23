@@ -10,7 +10,6 @@ public class EnemyController : MonoBehaviour
     public Animator animator; // Reference to the Animator component
     public string biteAnimationTrigger = "Bite"; // Animation trigger name for the bite animation
     public string playerTag = "Player"; // Tag of the player GameObject
-    public PlayerDishController playerDish; // Reference to the player's dish GameObject
 
     private bool playerInRange = false;
 
@@ -47,6 +46,7 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+
         // Check if the enemy collides with the player
         if (other.CompareTag(playerTag))
         {
@@ -54,7 +54,7 @@ public class EnemyController : MonoBehaviour
             animator.SetTrigger(biteAnimationTrigger);
 
             // Take a bite from the player's dish
-            playerDish.TakeBite();
+            //playerDish.TakeBite();
         }
     }
 }

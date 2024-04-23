@@ -24,5 +24,4 @@ public class PlayerController : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * walkingSpeed * Time.deltaTime);
     }
-
 }

@@ -1,27 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
     public float walkingSpeed = 2.5f;
+    public float runningSpeed = 3.25f;
+    public bool isRunning;
     public Rigidbody2D rb;
     public Animator animator;
-    Vector2 movement;
 
 
     private void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        float inputX = Input.GetAxisRaw("Horizontal");
+        float inputY = Input.GetAxisRaw("Vertical");
+        Vector2 movement = new Vector2(inputX, inputY).normalized;
+
+        isRunning = Input.GetKey(KeyCode.LeftShift);
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+        animator.SetBool("isRunning", isRunning);
+
+        Movement(movement, isRunning);
     }
 
-    private void FixedUpdate()
+    private void Movement(Vector2 movement, bool isRunning)
     {
-        rb.MovePosition(rb.position + movement * walkingSpeed * Time.deltaTime);
+        float speed = isRunning ? runningSpeed : walkingSpeed;
+        rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
     }
 }

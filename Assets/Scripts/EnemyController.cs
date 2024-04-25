@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class Movement : MonoBehaviour
 {
-    public float detectionRange = 5f; // Range at which the enemy detects the player
-    public float movementSpeed = 3f; // Speed at which the enemy moves
+    public float detectionRange = 3f; // Range at which the enemy detects the player
+    public float movementSpeed = 2f; // Speed at which the enemy moves
     public Transform player; // Reference to the player's transform
     public Animator animator; // Reference to the Animator component
-    public string biteAnimationTrigger = "Bite"; // Animation trigger name for the bite animation
-    public string playerTag = "Player"; // Tag of the player GameObject
+    public PlayerDish playerDish; // Reference to the Player Dish 
 
     private bool playerInRange = false;
 
@@ -46,15 +45,24 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
         // Check if the enemy collides with the player
-        if (other.CompareTag(playerTag))
+        if (other.CompareTag("PlayerDish"))
         {
             // Trigger the bite animation
-            animator.SetTrigger(biteAnimationTrigger);
+            animator.SetBool("touchedPlayer", true);
 
             // Take a bite from the player's dish
-            //playerDish.TakeBite();
+            playerDish.TakeBite();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        // Check if the enemy collides with the player
+        if (other.CompareTag("PlayerDish"))
+        {
+            // Trigger the bite animation
+            animator.SetBool("touchedPlayer", false);
         }
     }
 }

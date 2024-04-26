@@ -5,8 +5,8 @@ using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
-    public float walkingSpeed = 2.5f;
-    public float runningSpeed = 3.25f;
+    public float walkingSpeed = 3.25f;
+    public float runningSpeed = 4.5f;
     public bool isRunning;
     public Rigidbody2D rb;
     public Animator animator;

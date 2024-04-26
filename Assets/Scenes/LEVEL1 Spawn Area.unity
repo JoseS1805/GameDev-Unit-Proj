@@ -3805,8 +3805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f33da8d5144cd3f469d52e4a8fd03b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingSpeed: 2.5
-  runningSpeed: 5
+  walkingSpeed: 3.25
+  runningSpeed: 4.5
   isRunning: 0
   rb: {fileID: 1108187845}
   animator: {fileID: 1723641051}
@@ -12726,8 +12726,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 006e018cd2a98634c8b49c579d4d709f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 5
-  movementSpeed: 3
+  detectionRange: 3
+  movementSpeed: 2.5
   player: {fileID: 1108187846}
   animator: {fileID: 1379146068}
   playerDish: {fileID: 2132148317}
@@ -12762,6 +12762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialBites: 25
+  remainingBites: 0
   player: {fileID: 1108187844}
 --- !u!4 &2132148318
 Transform:
@@ -12778,8 +12779,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &2132148319
-BoxCollider2D:
+--- !u!58 &2132148319
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12810,19 +12811,9 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.02479899}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: -0.04, y: -0.05}
   serializedVersion: 2
-  m_Size: {x: 0.75, y: 0.9363122}
-  m_EdgeRadius: 0
+  m_Radius: 0.6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

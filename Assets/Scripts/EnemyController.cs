@@ -52,29 +52,4 @@ public class Movement : MonoBehaviour
             animator.SetFloat("Speed", 0f);
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        // Check if the enemy collides with the player
-        if (other.CompareTag("PlayerDish"))
-        {
-            // Trigger the bite animation
-            animator.SetBool("touchedPlayer", true);
-            animator.Play("Attack", 0);
-
-            // Take a bite from the player's dish
-            playerDish.remainingBites--;
-            Debug.Log(playerDish.GetRemainingBites());
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        // Check if the enemy collides with the player
-        if (other.CompareTag("PlayerDish"))
-        {
-            // Trigger the bite animation
-            animator.SetBool("touchedPlayer", false);
-        }
-    }
 }

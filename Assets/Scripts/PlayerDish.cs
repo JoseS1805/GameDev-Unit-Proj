@@ -4,23 +4,20 @@ using UnityEngine;
 
 public class PlayerDish : MonoBehaviour
 {
-    public int initialBites = 25; // Initial number of bites
-    public int remainingBites; // Remaining number of bites
+    public int initialDishes = 5; // Initial number of bites
+    public int remainingDishes; // Remaining number of bites
     public PlayerController player;
+
+    public bool touchingPlayer = false;
 
     void Start()
     {
-        remainingBites = initialBites;
-    }
-
-    private void Update()
-    {
-        transform.position = player.transform.position;
+        remainingDishes = initialDishes;
     }
 
     // Function to get remaining bites
     public int GetRemainingBites()
     {
-        return remainingBites;
+        return remainingDishes;
     }
 }

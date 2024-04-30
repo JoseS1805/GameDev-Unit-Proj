@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
-
     private void Update()
     {
         float inputX = Input.GetAxisRaw("Horizontal");
@@ -32,5 +31,5 @@ public class PlayerController : MonoBehaviour
     {
         float speed = isRunning ? runningSpeed : walkingSpeed;
         rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
-    }
+    }    
 }
